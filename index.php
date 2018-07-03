@@ -1,5 +1,5 @@
 <?php
-
+// My microservice!
 if(!defined('STDOUT')) define('STDOUT', fopen('php://stdout', 'w'));
 fwrite(STDOUT, 'Fighter is running');
 
