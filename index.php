@@ -21,7 +21,7 @@ switch ($verb) {
     case 'GET':
     	// sample GET URL
         //$url = "http://ip.jsontest.com/";
-	$url = "http://129.157.179.180:3000/shield/33/45/red/Asandolo";
+	$url = "http://129.157.179.180:3000/shield/33/45/red/asandolo";
 	$getRequestResponse = file_get_contents($url);
 					
         break;
