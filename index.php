@@ -22,7 +22,7 @@ switch ($verb) {
     	// sample GET URL
         //$url = "http://ip.jsontest.com/";
 	//$url = "http://129.157.179.180:3000/shield/33/45/red/asandolo";
-	$url = "http://129.157.179.180:3000/fighters/45/2/red/asandolo";
+	$url = "http://129.157.179.180:3000/fighters/45/3/red/asandolo";
 	$getRequestResponse = file_get_contents($url);
 					
         break;
